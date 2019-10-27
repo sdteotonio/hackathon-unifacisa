@@ -10,6 +10,10 @@ const routes: Routes = [
       {
         path: 'contribuintes',
         loadChildren: './modules/fm-contribuintes/fm-contribuintes.module#FmContribuintesModule'
+      },
+      {
+        path: 'produtos',
+        loadChildren: './modules/fm-produtos/fm-produtos.module#FmProdutosModule'
       }
     ]
   }

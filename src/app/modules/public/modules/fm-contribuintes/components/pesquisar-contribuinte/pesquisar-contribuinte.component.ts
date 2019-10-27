@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FmContribuinteService } from '../../services/fm-contribuinte.service';
 
 @Component({
   templateUrl: './pesquisar-contribuinte.component.html',
@@ -6,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PesquisarContribuinteComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private service: FmContribuinteService
+  ) { }
 
   ngOnInit() {
   }

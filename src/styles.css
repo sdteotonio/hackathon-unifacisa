@@ -6,5 +6,5 @@ body {
 
 .container-padrao {
     background-color: #fff;
-    border-radius: 5px;
+    padding: 40px;
 }
